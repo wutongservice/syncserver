@@ -1,0 +1,135 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.2  (Unix)">
+	<META NAME="AUTHOR" CONTENT="b534 ">
+	<META NAME="CREATED" CONTENT="20120821;11453600">
+	<META NAME="CHANGEDBY" CONTENT="b534 ">
+	<META NAME="CHANGED" CONTENT="20120821;11504000">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { margin: 0.79in }
+		P { margin-bottom: 0.08in }
+		A:link { so-language: zxx }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="en-US" DIR="LTR">
+<P ALIGN=CENTER STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=4><B>HTTP
+API tutorial</B></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3><B>1.
+attain BorqsIDs by owner ID API</B></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>(1)base
+request location</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>http://{host}:{port}/contacts/borqsids?oid={owner}</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+parameter '<FONT COLOR="#3a3935"><U>oid</U></FONT>' must be required.
+</FONT></FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>(2)request
+parameters</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>A.
+the parameter of format result</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+parameter name is 'formated'.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+value is true or false. when it's true, the result is formated, or
+not formated.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>For
+example,</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>http://localhost:8601/contacts/borqsids?oid=14135&amp;formated=false</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>B.
+the parameter of columns</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+parameter name is '<FONT COLOR="#3a3935"><U>cols</U></FONT>'.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>Return
+all columns when no the parameter.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+value is <FONT COLOR="#3a3935"><U>splitted</U></FONT> by comma.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+column is <FONT COLOR="#3a3935"><U>oid</U></FONT> or <FONT COLOR="#3a3935"><U>cid</U></FONT>
+or bid.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+'<FONT COLOR="#3a3935"><U>oid</U></FONT>' is owner ID.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+'<FONT COLOR="#3a3935"><U>cid</U></FONT>' is contact ID.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+'bid' is <FONT COLOR="#3a3935"><U>Borqs</U></FONT> ID.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>For
+example,</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>http://localhost:8601/contacts/borqsids?oid=14135&amp;formated=false&amp;cols=cid,bid</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3><B>2.
+attain Contact IDs by <FONT COLOR="#3a3935"><U>Borqs</U></FONT> ID
+API</B></FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>(1)base
+request location</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>http://{host}:{port}/contacts/contactids?bid={borqsid}</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+parameter 'bid' must be required. </FONT></FONT>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>(2)request
+parameters</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>A.
+the parameter of format result</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+parameter name is 'formated'.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+value is true or false. when it's true, the result is formated, or
+not formated.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>For
+example,</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>http://localhost:8601/contacts/contactids?bid=14135&amp;formated=false</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>B.
+the parameter of columns</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+parameter name is '<FONT COLOR="#3a3935"><U>cols</U></FONT>'.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>Return
+all columns when no the parameter.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+value is <FONT COLOR="#3a3935"><U>splitted</U></FONT> by comma.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+column is <FONT COLOR="#3a3935"><U>oid</U></FONT> or <FONT COLOR="#3a3935"><U>cid</U></FONT>
+or bid.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+'<FONT COLOR="#3a3935"><U>oid</U></FONT>' is owner ID.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+'<FONT COLOR="#3a3935"><U>cid</U></FONT>' is contact ID.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>The
+'bid' is <FONT COLOR="#3a3935"><U>Borqs</U></FONT> ID.</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><BR>
+</P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>For
+example,</FONT></FONT></P>
+<P ALIGN=LEFT STYLE="margin-bottom: 0in"><FONT FACE="Monospace"><FONT SIZE=3>http://apitest.borqs.com/sync/webagent/contacts/contactids?bid=10222&amp;formated=false</FONT></FONT></P>
+<P STYLE="margin-bottom: 0in"><BR>
+</P>
+</BODY>
+</HTML>

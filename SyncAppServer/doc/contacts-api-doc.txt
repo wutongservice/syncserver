@@ -1,0 +1,60 @@
+1. add contacts
+location: 
+http://{host}:8895/sync/api/contacts/add?uid=10208
+
+request content with POST method:
+[{"IM":[],"TEL":[{"MOBILE":"13810139250"}],"EMAIL":[],"N":{"FN":"刘华","MN":"东","LN":"2"},"URL":[],"ADDR":[],"X":[],"ORG":[]},
+{"IM":[],"TEL":[{"MOBILE":"13611337586"}],"EMAIL":[{"WORK":"jcsheng86@163.com"},{"HOME":"jcsheng86@gmail.com"}],"N":{"FN":"长","LN":"胜"},"URL":[],"ADDR":[],"X":[],"ORG":[]}]
+
+return result when success:
+{"code":200,"content":"8856,8857"}
+
+2. update contact
+location: 
+http://{host}:8895/sync/api/contacts/update?uid=10208&cid=8870
+
+request content with POST method:
+{"IM":[],"TEL":[{"MOBILE":"13810139250"}],"EMAIL":[],"N":{"FN":"刘华","MN":"东","LN":"3"},"URL":[],"ADDR":[],"X":[],"ORG":[]}
+
+return result when success:
+{"code":200,"content":"8870"}
+
+3. query contacts
+location: 
+http://{host}:8895/sync/api/contacts/query?uid=10208&f=name,phone,email&offset=0&count=2
+
+return result when success:
+[{"TEL":[{"MOBILE":"13810139250"},{"MOBILE":"13581871052"}],"N":{"FN":"中","MN":"试","LN":"测"}},{"TEL":[{"MOBILE":"13611337586"},{"MOBILE":"13353322233"}],"EMAIL":[{"WORK":"jcsheng86@163.com"},{"HOME":"jcsheng86@gmail.com"}],"N":{"FN":"胜","MN":"长","LN":"姜"}}
+
+You can append the following query string:
+f		which fields will be displayed, default is all
+offset	the start position of result
+count	the quantity of result that need to return
+
+4. delete contacts
+location: 
+http://{host}:8895/sync/api/contacts/del?uid=10208&cid=8860,8861
+
+return result when success:
+{"code":200,"content":"8860,8861"}
+
+5. count contacts
+location: 
+http://{host}:8895/sync/api/contacts/count?uid=10208
+
+return result when success:
+{"code":200,"content":"40"}
+
+Ajax JSONP example:
+var url = "http://api.borqs.com/sync/webagent/sync/api/contacts/query?uid=10208&ticket=AWEWSDFEEWEFWEFWEF&f=name,phone&callback=?&offset=2&count=1";
+
+$.ajax({
+	url: url, 
+	dataType: 'json',
+	jsonp: true, 
+	jsonpCallback: "cbfun",
+	data: {},
+	success: function(d) {
+		alert($.toJSON(d));
+ 	}
+});

@@ -1,0 +1,26 @@
+
+
+
+@namespace("com.borqs.server.service")
+protocol Account {
+    import schema "error.avsc";
+
+    // Auth
+    bytes login(string loginName, string password, string appId) throws com.borqs.server.base.ResponseError;
+    boolean logout(string ticket) throws com.borqs.server.base.ResponseError;
+    string whoLogined(string ticket) throws com.borqs.server.base.ResponseError;
+    bytes getLogined(string userId, string appId) throws com.borqs.server.base.ResponseError;
+
+    // Account
+    string createAccount(bytes info) throws com.borqs.server.base.ResponseError;
+    boolean destroyAccount(string userId) throws com.borqs.server.base.ResponseError;
+    string resetPassword(string loginName) throws com.borqs.server.base.ResponseError;
+    boolean updateAccount(string userId, bytes info) throws com.borqs.server.base.ResponseError;
+
+    // User
+    bytes getUsers(string userIds, string cols) throws com.borqs.server.base.ResponseError;
+    bytes getUserIds(string loginNames) throws com.borqs.server.base.ResponseError;
+    bytes hasUsers(string userIds) throws com.borqs.server.base.ResponseError;
+    boolean hasOneUsers(string userIds) throws com.borqs.server.base.ResponseError;
+    boolean hasAllUsers(string userIds) throws com.borqs.server.base.ResponseError;
+}

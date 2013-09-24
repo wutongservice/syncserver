@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <artifactId>SyncAppServer</artifactId>
+    <groupId>com.borqs.sync.server</groupId>
+    <version>1.0</version>
+  </parent>
+  <groupId>com.borqs.sync.server</groupId>
+  <artifactId>webagent</artifactId>
+  <version>1.0</version>
+  <name>webagent</name>
+  <url>http://maven.apache.org</url>
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  </properties>
+
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+    </dependency>
+    <dependency>
+  		<groupId>com.borqs.sync.server</groupId>
+  		<artifactId>common</artifactId>
+  		<version>1.0</version>
+  	</dependency>
+  	<dependency>
+			<groupId>com.borqs.sync.server</groupId>
+			<artifactId>rpcbase</artifactId>
+			<version>1.0</version>
+    </dependency>
+
+  	<dependency>
+  		<groupId>com.borqs.sync.server</groupId>
+  		<artifactId>rpcservice</artifactId>
+  		<version>1.0</version>
+  	</dependency>
+  	
+  	<dependency>
+		<groupId>javax.mail</groupId>
+		<artifactId>mail</artifactId>
+		<version>1.4</version>
+    </dependency>
+
+  	<dependency>
+        <groupId>com.borqs.sync.server</groupId>
+        <artifactId>contact</artifactId>
+        <version>1.0</version>
+    </dependency>
+    
+  </dependencies>
+</project>

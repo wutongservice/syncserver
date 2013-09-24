@@ -1,0 +1,24 @@
+
+/**
+ * Contact provider interface for SyncML Json connector
+ */
+@namespace("com.borqs.sync.avro")
+protocol IContactSyncMLProvider {
+    record XResponse {
+        int status_code;
+        string content;
+    }
+    XResponse beginSync(string token, string jsonObject);
+    XResponse endSync(string token, string jsonObject,string principalId,string deviceId);
+    XResponse addItem(string token, string jsonObject, long since);
+    XResponse getItem(string token, string id);
+    XResponse updateItem(string token, string id, string jsonObject, long since);
+    XResponse removeItem(string token, string id, long since);
+    XResponse removeAllItems(string token, long since);
+    XResponse getAllItemKeys(string token);
+    XResponse getNewItemKeys(string token, long since, long until);
+    XResponse getUpdatedItemKeys(string token, long since, long until);
+    XResponse getDeletedItemKeys(string token, long since, long until);
+    XResponse getItemKeysFromTwin(string token, string jsonObject);
+    XResponse getTimeConfiguration(string token);
+}

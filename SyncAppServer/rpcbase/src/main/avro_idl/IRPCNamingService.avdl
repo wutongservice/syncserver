@@ -1,0 +1,9 @@
+/**
+ * Sync naming service interface
+ */
+@namespace("com.borqs.sync.avro")
+protocol IRPCNamingService {
+    string register(string serviceURI, boolean multiInstance);
+    void unregister(string serviceURI) oneway;
+    string lookup(string serviceProtocol);
+}

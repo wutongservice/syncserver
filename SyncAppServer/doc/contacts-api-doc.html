@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<p>
+		<span style="font-size: medium;"><strong>1. add
+				contacts</strong></span><br />location: <br />http://{host}:8895/sync/api/contacts/add?uid=10208
+	</p>
+	<p>
+		request content with POST method:<br />[{"IM":[],"TEL":[{"MOBILE":"13810139250"}],"EMAIL":[],"N":{"FN":"刘华","MN":"东","LN":"2"},"URL":[],"ADDR":[],"X":[],"ORG":[]},<br />{"IM":[],"TEL":[{"MOBILE":"13611337586"}],"EMAIL":[{"WORK":"jcsheng86@163.com"},{"HOME":"jcsheng86@gmail.com"}],"N":{"FN":"长","LN":"胜"},"URL":[],"ADDR":[],"X":[],"ORG":[]}]
+	</p>
+	<p>
+		return result when success:<br />{"code":200,"content":"8856,8857"}
+	</p>
+	<p>
+		<span style="font-size: medium;"><strong>2. update
+				contact</strong></span><br />location: <br />http://{host}:8895/sync/api/contacts/update?uid=10208&amp;cid=8870
+	</p>
+	<p>
+		request content with POST method:<br />{"IM":[],"TEL":[{"MOBILE":"13810139250"}],"EMAIL":[],"N":{"FN":"刘华","MN":"东","LN":"3"},"URL":[],"ADDR":[],"X":[],"ORG":[]}
+	</p>
+	<p>
+		return result when success:<br />{"code":200,"content":"8870"}
+	</p>
+	<p>
+		<span style="font-size: medium;"><strong>3. query
+				contacts</strong></span><br />location: <br />http://{host}:8895/sync/api/contacts/query?uid=10208&amp;f=name,phone,email&amp;offset=0&amp;count=2
+	</p>
+	<p>
+		return result when success:<br />[{"TEL":[{"MOBILE":"13810139250"},{"MOBILE":"13581871052"}],"N":{"FN":"中","MN":"试","LN":"测"}},{"TEL":[{"MOBILE":"13611337586"},{"MOBILE":"13353322233"}],"EMAIL":[{"WORK":"jcsheng86@163.com"},{"HOME":"jcsheng86@gmail.com"}],"N":{"FN":"胜","MN":"长","LN":"姜"}}
+	</p>
+	<p>
+		You can append the following query string:<br />f which fields will
+		be displayed, default is all<br />offset the start position of result<br />count
+		the quantity of result that need to return
+	</p>
+	<p>
+		<span style="font-size: medium;"><strong>4. delete
+				contacts</strong></span><br />location: <br />http://{host}:8895/sync/api/contacts/del?uid=10208&amp;cid=8860,8861
+	</p>
+	<p>
+		return result when success:<br />{"code":200,"content":"8860,8861"}
+	</p>
+	<p>
+		<span style="font-size: medium;"><strong>5. count
+				contacts</strong></span><br />location: <br />http://{host}:8895/sync/api/contacts/count?uid=10208
+	</p>
+	<p>
+		return result when success:<br />{"code":200,"content":"40"}
+	</p>
+</body>
+</html>

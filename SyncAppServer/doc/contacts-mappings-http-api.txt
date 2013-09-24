@@ -1,0 +1,55 @@
+HTTP API tutorial
+
+1. attain BorqsIDs by owner ID API
+(1)base request location
+http://{host}:{port}/contacts/borqsids?oid={owner}
+
+The parameter 'oid' must be required. 
+
+(2)request parameters
+A. the parameter of format result
+The parameter name is 'formated'.
+The value is true or false. when it's true, the result is formated, or not formated.
+
+For example,
+http://localhost:8601/contacts/borqsids?oid=14135&formated=false
+
+B. the parameter of columns
+The parameter name is 'cols'.
+Return all columns when no the parameter.
+The value is splitted by comma.
+
+The column is oid or cid or bid.
+The 'oid' is owner ID.
+The 'cid' is contact ID.
+The 'bid' is Borqs ID.
+
+For example,
+http://localhost:8601/contacts/borqsids?oid=14135&formated=false&cols=cid,bid
+
+2. attain Contact IDs by Borqs ID API
+(1)base request location
+http://{host}:{port}/contacts/contactids?bid={borqsid}
+
+The parameter 'bid' must be required. 
+
+(2)request parameters
+A. the parameter of format result
+The parameter name is 'formated'.
+The value is true or false. when it's true, the result is formated, or not formated.
+
+For example,
+http://localhost:8601/contacts/contactids?bid=14135&formated=false
+
+B. the parameter of columns
+The parameter name is 'cols'.
+Return all columns when no the parameter.
+The value is splitted by comma.
+
+The column is oid or cid or bid.
+The 'oid' is owner ID.
+The 'cid' is contact ID.
+The 'bid' is Borqs ID.
+
+For example,
+http://apitest.borqs.com/sync/webagent/contacts/contactids?bid=10222&formated=false

@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>pim-json</artifactId>
+        <groupId>com.borqs.sync.server.conact</groupId>
+        <version>0.1</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>json-officer</artifactId>
+
+    <packaging>s4j</packaging>
+    <name>SyncHttpServer DBOfficer Module</name>
+    <build>
+    <plugins>
+        <plugin>
+            <artifactId>maven-jar-plugin</artifactId>
+            <configuration>
+                <archive>
+                    <manifest>
+                        <addClasspath>true</addClasspath>
+                        <addExtensions />
+                        <classpathPrefix />
+                    </manifest>
+                </archive>
+            </configuration>
+        </plugin>
+        <plugin>
+            <groupId>funambol</groupId>
+            <artifactId>funambol-plugin</artifactId>
+            <version>1.1.0-SNAPSHOT</version>
+            <extensions>true</extensions>
+        </plugin>
+
+        <plugin>
+            <groupId>org.apache.avro</groupId>
+            <artifactId>avro-maven-plugin</artifactId>
+            <version>1.5.1</version>
+            <executions>
+                <execution>
+                    <id>compile-idl</id>
+                    <phase>generate-sources</phase>
+                    <goals>
+                        <goal>idl-protocol</goal>
+                    </goals>
+                    <configuration>
+                        <sourceDirectory>${basedir}/src/main/avro_idl</sourceDirectory>
+                        <outputDirectory>${basedir}/src/main/java</outputDirectory>
+                    </configuration>
+                </execution>
+            </executions>
+        </plugin>
+        <plugin>
+            <groupId>org.apache.maven.plugins</groupId>
+            <artifactId>maven-compiler-plugin</artifactId>
+            <configuration>
+                <source>1.6</source>
+                <target>1.6</target>
+            </configuration>
+        </plugin>
+    </plugins>
+</build>
+
+<repositories>
+    <repository>
+        <id>artifacts</id>
+        <url>http://m2.funambol.com/repositories/artifacts</url>
+    </repository>
+</repositories>
+<pluginRepositories>
+    <pluginRepository>
+        <id>snapshots</id>
+        <url>http://m2.funambol.com/repositories/snapshots</url>
+    </pluginRepository>
+</pluginRepositories>
+<dependencies>
+    <dependency>
+        <groupId>funambol</groupId>
+        <artifactId>core-framework</artifactId>
+        <version>7.0.1</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>funambol</groupId>
+        <artifactId>server-framework</artifactId>
+        <version>7.1.0</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>funambol</groupId>
+        <artifactId>ds-server</artifactId>
+        <version>10.0.0</version>
+        <scope>provided</scope>
+    </dependency>
+    <dependency>
+        <groupId>funambol</groupId>
+        <artifactId>admin-framework</artifactId>
+        <version>7.1.0</version>
+        <scope>provided</scope>
+    </dependency>
+
+    <dependency>
+        <groupId>org.apache.avro</groupId>
+        <artifactId>avro-ipc</artifactId>
+        <version>1.5.1</version>
+    </dependency>
+    <dependency>
+        <groupId>org.apache.avro</groupId>
+        <artifactId>avro</artifactId>
+        <version>1.5.1</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.borqs.sync.server</groupId>
+        <artifactId>rpcbase</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.borqs.pim</groupId>
+        <artifactId>jpim</artifactId>
+        <version>1.0</version>
+    </dependency>
+
+    <dependency>
+        <groupId>com.borqs.sync.server.conact</groupId>
+        <artifactId>json-core</artifactId>
+        <version>0.1</version>
+        <exclusions>
+            <exclusion>
+                <groupId>funambol</groupId>
+                <artifactId>server-framework</artifactId>
+            </exclusion>
+            <exclusion>
+                <groupId>funambol</groupId>
+                <artifactId>pim-framework</artifactId>
+            </exclusion>
+        </exclusions>
+    </dependency>
+</dependencies>
+<reporting>
+</reporting>
+</project>

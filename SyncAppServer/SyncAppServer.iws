@@ -1,0 +1,924 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="b3024300-fa48-4391-864f-9b84db429e27" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/test/java/com/borqs/sync/server/common/json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/common/src/test/java/com/borqs/sync/server/common/json/JsonTest.java" />
+    </list>
+    <ignored path="SyncAppServer.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <file path="/Circle.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1357467968859" ignored="false" />
+    <file path="/Dummy.txt" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1358828314226" ignored="false" />
+    <file path="/CircleTest.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1357468451246" ignored="false" />
+    <file path="/CircleList.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1357468560835" ignored="false" />
+    <file path="/GroupSyncHandler.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1357526889020" ignored="false" />
+    <file path="/BPCAccountHttpAdapter.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1357527948811" ignored="false" />
+    <file path="/ContactsAPIServiceImpl.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1358303886756" ignored="false" />
+    <file path="/server.properties" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1358324273793" ignored="false" />
+    <file path="/ContactAPIServlet.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1358324487601" ignored="false" />
+    <file path="/contacts-api-doc.txt" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1358331874043" ignored="false" />
+    <file path="/LoginImpl.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1358827623229" ignored="false" />
+    <file path="/JsonTest.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1360119468985" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/WebService.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369300063433" ignored="false" />
+    <file path="/WebService.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369300012801" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/pom.xml" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369297447678" ignored="false" />
+    <file path="/pom.xml" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369297423521" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/web/HttpServletDelegate.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369299327881" ignored="false" />
+    <file path="/HttpServletDelegate.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369299327225" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/web/WebMethodServlet.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369299539305" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/web/WebMethod.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369297310396" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/web/WebMethodException.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298885792" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/web/QueryParams.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369297687936" ignored="false" />
+    <file path="/QueryParams.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369297684017" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/web/ErrorCode.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369297527494" ignored="false" />
+    <file path="/WebMethodException.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298885792" ignored="false" />
+    <file path="/WebMethodServlet.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369299536243" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/web/PostData.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298148021" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/json/JsonReader.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298140355" ignored="false" />
+    <file path="/JsonReader.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369297989794" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/util/StringPool.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298100246" ignored="false" />
+    <file path="/StringPool.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298096251" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/json/JsonScope.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298116816" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/json/JsonToken.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298120464" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/json/JsonWriter.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298125356" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/util/Charset.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298245469" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/util/Charsets.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298255670" ignored="false" />
+    <file path="/Charset.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298250857" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/json/MalformedJsonException.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298348009" ignored="false" />
+    <file path="/MalformedJsonException.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298348009" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/service/web/ResponseWriter.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298412144" ignored="false" />
+    <file path="/JSONCreator.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298558689" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/java/mm/server/common/json/JSONCreator.java" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369298558689" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/conf/applicationContext-service.xml" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369300139309" ignored="false" />
+    <file path="/applicationContext-service.xml" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369299832497" ignored="false" />
+    <file path="$PROJECT_DIR$/../MMServer_WWW/data_server/src/main/assembly/bin.xml" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369300695417" ignored="false" />
+    <file path="/bin.xml" changelist="b3024300-fa48-4391-864f-9b84db429e27" time="1369300692089" ignored="false" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DebuggerManager">
+    <line_breakpoints default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint url="file://$PROJECT_DIR$/account-sync/src/test/java/com/borqs/sync/server/datasync/pim/group/GroupSyncHandlerTest.java" line="105" class="com.borqs.sync.server.datasync.pim.group.GroupSyncHandlerTest" package="com.borqs.sync.server.datasync.pim.group">
+        <option name="ENABLED" value="true" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </line_breakpoints>
+    <ui_properties default_suspend_policy="SuspendAll" default_condition_enabled="true" />
+    <breakpoint_any default_suspend_policy="SuspendAll" default_condition_enabled="true">
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+      <breakpoint>
+        <option name="NOTIFY_CAUGHT" value="true" />
+        <option name="NOTIFY_UNCAUGHT" value="true" />
+        <option name="ENABLED" value="false" />
+        <option name="LOG_ENABLED" value="false" />
+        <option name="LOG_EXPRESSION_ENABLED" value="false" />
+        <option name="SUSPEND_POLICY" value="SuspendAll" />
+        <option name="SUSPEND" value="true" />
+        <option name="COUNT_FILTER_ENABLED" value="false" />
+        <option name="COUNT_FILTER" value="0" />
+        <option name="CONDITION_ENABLED" value="true" />
+        <option name="CLASS_FILTERS_ENABLED" value="false" />
+        <option name="INSTANCE_FILTERS_ENABLED" value="false" />
+        <option name="CONDITION" value="" />
+        <option name="LOG_MESSAGE" value="" />
+      </breakpoint>
+    </breakpoint_any>
+    <breakpoint_rules />
+    <ui_properties />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="SyncAppServer" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="ResponseWriter.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/httpservlet/ResponseWriter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="17" column="0" selection-start="316" selection-end="1145" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JSONCreator.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/json/JSONCreator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="12" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ServletImp.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/ServletImp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="34" column="13" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactServletImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/contact/ContactServletImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="13" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ContactAPIServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/api/ContactAPIServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="141" column="23" selection-start="4952" selection-end="4986" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AccountLoginServlet.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/account/AccountLoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="122" column="36" selection-start="5039" selection-end="5053" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LoginImpl.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/fastlogin/LoginImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="420" column="53" selection-start="18877" selection-end="18877" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BPCAccountHttpAdapter.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/account/adapters/BPCAccountHttpAdapter.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="183" column="11" selection-start="8086" selection-end="8086" vertical-scroll-proportion="0.40920717">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Charsets.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/borqs/sync/server/framework/Charsets.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="0" selection-start="220" selection-end="366" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="JsonReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/json/JsonReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="175" column="19" selection-start="6488" selection-end="6488" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindManager">
+    <FindUsagesManager>
+      <setting name="OPEN_NEW_TAB" value="false" />
+    </FindUsagesManager>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="changedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/account/Circle.java" />
+        <option value="$PROJECT_DIR$/account-sync/src/test/java/com/borqs/sync/server/datasync/pim/group/GroupSyncHandlerTest.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/account/CircleList.java" />
+        <option value="$PROJECT_DIR$/common/src/test/java/com/borqs/sync/server/common/account/CircleTest.java" />
+        <option value="$PROJECT_DIR$/account-sync/src/main/java/com/borqs/sync/server/datasync/pim/group/GroupSyncHandler.java" />
+        <option value="$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/account/adapters/BPCAccountHttpAdapter.java" />
+        <option value="$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/api/ContactsAPIServiceImpl.java" />
+        <option value="$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/api/ContactAPIServlet.java" />
+        <option value="$PROJECT_DIR$/doc/contacts-api-doc.txt" />
+        <option value="$PROJECT_DIR$/appserver-release/src/main/config/server.properties" />
+        <option value="$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/fastlogin/LoginImpl.java" />
+        <option value="$PROJECT_DIR$/common/src/test/java/com/borqs/sync/server/common/json/JsonTest.java" />
+        <option value="$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/account/AccountLoginServlet.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="createModuleGroups" value="true" />
+        <option name="importAutomatically" value="true" />
+        <option name="lookForNested" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="65" />
+    <option name="y" value="24" />
+    <option name="width" value="1217" />
+    <option name="height" value="1029" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
+  </component>
+  <component name="ProjectReloadState">
+    <option name="STATE" value="0" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SyncAppServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SyncAppServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="SyncAppServer" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth1" value="75" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth0" value="59" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth3" value="48" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth2" value="80" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth2" value="84" />
+    <property name="recentsLimit" value="5" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth1" value="79" />
+    <property name="last_opened_file_path" value="$USER_HOME$/tmp/contacts-api.html" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth0" value="64" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth5" value="780" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth4" value="65" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeWidth3" value="63" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth4" value="117" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_flatWidth5" value="756" />
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder5" value="5" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder3" value="3" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder4" value="4" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder2" value="2" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="FileHistory.org.jetbrains.idea.svn.history.SvnHistoryProvider_treeOrder0" value="0" />
+    <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RunManager" selected="JUnit.JsonTest.test2">
+    <configuration default="false" name="GroupSyncHandlerTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.borqs.sync.server.datasync.pim.group.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="account-sync" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.borqs.sync.server.datasync.pim.group" />
+      <option name="MAIN_CLASS_NAME" value="com.borqs.sync.server.datasync.pim.group.GroupSyncHandlerTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="" />
+        <option name="TRANSPORT" value="0" />
+        <option name="LOCAL" value="true" />
+      </RunnerSettings>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CircleTest" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.borqs.sync.server.common.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.borqs.sync.server.common.account" />
+      <option name="MAIN_CLASS_NAME" value="com.borqs.sync.server.common.account.CircleTest" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="CircleTest.test_parse_circle_list_with_buddy" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.borqs.sync.server.common.account.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.borqs.sync.server.common.account" />
+      <option name="MAIN_CLASS_NAME" value="com.borqs.sync.server.common.account.CircleTest" />
+      <option name="METHOD_NAME" value="test_parse_circle_list_with_buddy" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JsonTest.test" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.borqs.sync.server.common.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.borqs.sync.server.common.json" />
+      <option name="MAIN_CLASS_NAME" value="com.borqs.sync.server.common.json.JsonTest" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="JsonTest.test2" type="JUnit" factoryName="JUnit" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.borqs.sync.server.common.json.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <module name="common" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.borqs.sync.server.common.json" />
+      <option name="MAIN_CLASS_NAME" value="com.borqs.sync.server.common.json.JsonTest" />
+      <option name="METHOD_NAME" value="test2" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="JUnit.GroupSyncHandlerTest" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.CircleTest" />
+      <item index="2" class="java.lang.String" itemvalue="JUnit.CircleTest.test_parse_circle_list_with_buddy" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.JsonTest.test" />
+      <item index="4" class="java.lang.String" itemvalue="JUnit.JsonTest.test2" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="JUnit.JsonTest.test2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.JsonTest.test" />
+        <item index="2" class="java.lang.String" itemvalue="JUnit.CircleTest" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.CircleTest.test_parse_circle_list_with_buddy" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.GroupSyncHandlerTest" />
+      </list>
+    </recent_temporary>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
+      <Host>localhost</Host>
+      <Port>5050</Port>
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="true">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <configuration useDefault="false">$USER_HOME$/.subversion</configuration>
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/account-sync" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/account-sync" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/appserver-release" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/appserver-release" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/common" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/common" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/contact" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/contact" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/framework" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/framework" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/json_pim" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/json_pim" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/rpcbase" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/rpcbase" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/rpcservice" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/rpcservice" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/task" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/task" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$/webagent" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$/webagent" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="$PROJECT_DIR$" />
+          <option name="myCopyRoot" value="$PROJECT_DIR$" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b3024300-fa48-4391-864f-9b84db429e27" name="Default" comment="" />
+      <created>1357465893040</created>
+      <updated>1357465893040</updated>
+    </task>
+    <task id="LOCAL-00001" summary="ChenXuetong: use latest circle interface to sync group">
+      <created>1357468206100</created>
+      <updated>1357468206100</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ChenXuetong: fix to pass UT">
+      <created>1357468658102</created>
+      <updated>1357468658102</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ChenXuetong: missing parameter in Circle Rest API">
+      <created>1357528351121</created>
+      <updated>1357528351121</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ChenXuetong: deploy the contacts API">
+      <created>1358327468101</created>
+      <updated>1358327468101</updated>
+    </task>
+    <task id="LOCAL-00005" summary="ChenXuetong: update API doc">
+      <created>1358331942101</created>
+      <updated>1358331942101</updated>
+    </task>
+    <task id="LOCAL-00006" summary="ChenXuetong: fix compatibility issue">
+      <created>1358828322116</created>
+      <updated>1358828322116</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="65" y="24" width="1217" height="1029" extended-state="0" />
+    <editor active="false" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.49699572" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6514286" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34506437" sideWeight="0.67085713" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32914287" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SVN Repositories" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32914287" sideWeight="0.49699572" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="OFFER_MOVE_TO_ANOTHER_CHANGELIST_ON_PARTIAL_COMMIT" value="true" />
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="CHECK_NEW_TODO" value="true" />
+    <option name="myTodoPanelSettings">
+      <value>
+        <are-packages-shown value="false" />
+        <are-modules-shown value="false" />
+        <flatten-packages value="false" />
+        <is-autoscroll-to-source value="false" />
+      </value>
+    </option>
+    <option name="PERFORM_UPDATE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_COMMIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_EDIT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_CHECKOUT_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
+    <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
+    <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="false" />
+    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
+    <option name="SHOW_ONLY_CHANGED_IN_SELECTION_DIFF" value="true" />
+    <option name="CHECK_COMMIT_MESSAGE_SPELLING" value="true" />
+    <option name="DEFAULT_PATCH_EXTENSION" value="patch" />
+    <option name="SHORT_DIFF_HORISONTALLY" value="true" />
+    <option name="SHORT_DIFF_EXTRA_LINES" value="2" />
+    <option name="SOFT_WRAPS_IN_SHORT_DIFF" value="true" />
+    <option name="INCLUDE_TEXT_INTO_PATCH" value="false" />
+    <option name="INCLUDE_TEXT_INTO_SHELF" value="false" />
+    <option name="SHOW_FILE_HISTORY_DETAILS" value="true" />
+    <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
+    <option name="SHOW_DIRTY_RECURSIVELY" value="false" />
+    <option name="LIMIT_HISTORY" value="true" />
+    <option name="MAXIMUM_HISTORY_ROWS" value="1000" />
+    <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
+    <option name="LAST_COMMIT_MESSAGE" value="ChenXuetong: fix compatibility issue" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="REFORMAT_BEFORE_FILE_COMMIT" value="false" />
+    <option name="FILE_HISTORY_DIALOG_COMMENTS_SPLITTER_PROPORTION" value="0.8" />
+    <option name="FILE_HISTORY_DIALOG_SPLITTER_PROPORTION" value="0.5" />
+    <option name="ACTIVE_VCS_NAME" />
+    <option name="UPDATE_GROUP_BY_PACKAGES" value="false" />
+    <option name="UPDATE_GROUP_BY_CHANGELIST" value="false" />
+    <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
+    <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
+    <MESSAGE value="ChenXuetong: use latest circle interface to sync group" />
+    <MESSAGE value="ChenXuetong: fix to pass UT" />
+    <MESSAGE value="ChenXuetong: missing parameter in Circle Rest API" />
+    <MESSAGE value="ChenXuetong: deploy the contacts API" />
+    <MESSAGE value="ChenXuetong: update API doc" />
+    <MESSAGE value="ChenXuetong: fix compatibility issue" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="25" selection-start="2600" selection-end="2612" vertical-scroll-proportion="-8.678572">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/exception/ErrorCode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="203" selection-end="297" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/httpservlet/QueryParams.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="44" selection-start="1813" selection-end="1813" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#687#717#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/httpservlet/PostData.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="41" selection-start="721" selection-end="721" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/borqs/sync/server/framework/services/http/WebMethodServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="44" selection-start="844" selection-end="844" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/framework/src/main/java/com/borqs/sync/server/framework/Charsets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="220" selection-end="366" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/json/JsonReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="19" selection-start="6488" selection-end="6488" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/httpservlet/ResponseWriter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="17" column="0" selection-start="316" selection-end="1145" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/json/JSONCreator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/ServletImp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="13" selection-start="1416" selection-end="1416" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/contact/ContactServletImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="13" selection-start="681" selection-end="681" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/appserver-release/src/main/config/server.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.4028133">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/api/ContactAPIServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="141" column="23" selection-start="4952" selection-end="4986" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/account/AccountLoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="122" column="36" selection-start="5039" selection-end="5053" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/webagent/src/main/java/com/borqs/sync/server/webagent/fastlogin/LoginImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="420" column="53" selection-start="18877" selection-end="18877" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/src/main/java/com/borqs/sync/server/common/account/adapters/BPCAccountHttpAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="183" column="11" selection-start="8086" selection-end="8086" vertical-scroll-proportion="0.40920717">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
+

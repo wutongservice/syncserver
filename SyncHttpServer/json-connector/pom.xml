@@ -1,0 +1,152 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.borqs.sync.server.conact</groupId>
+    <artifactId>json-connector</artifactId>
+    <version>0.1</version>
+    <name>Borqs JSON Connector</name>
+    <packaging>s4j</packaging>
+
+    <parent>
+        <groupId>com.borqs.sync.server.conact</groupId>
+        <artifactId>pim-json</artifactId>
+        <version>0.1</version>
+    </parent>
+    
+    <!--
+        DEPENDENCIES
+    -->
+
+    <dependencies>
+
+        <!-- 
+            Internal Dependency
+        -->  
+        <dependency>
+            <groupId>com.borqs.sync.server.conact</groupId>
+            <artifactId>json-core</artifactId>
+            <version>0.1</version>
+            <exclusions>
+                <exclusion>
+                   <groupId>funambol</groupId>
+                   <artifactId>server-framework</artifactId>
+                </exclusion>            
+                <exclusion>
+                   <groupId>funambol</groupId>
+                   <artifactId>pim-framework</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+
+        <dependency>
+            <groupId>com.borqs.sync.server.conact</groupId>
+            <artifactId>json-core</artifactId>
+            <version>0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>funambol</groupId>
+            <artifactId>server-framework</artifactId>
+            <version>10.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.borqs.pim</groupId>
+            <artifactId>jpim</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>funambol</groupId>
+            <artifactId>ds-server</artifactId>
+            <version>10.0.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.borqs.sync.server</groupId>
+            <artifactId>rpcbase</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>funambol</groupId>
+            <artifactId>admin-framework</artifactId>
+            <version>8.7.0</version>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.8.2</version>
+            <scope>test</scope>
+        </dependency>
+
+    </dependencies>
+
+    <!--
+        Build plug-ins
+    -->
+    <build>
+        <plugins>            
+
+            <plugin>
+                <groupId>funambol</groupId>
+                <artifactId>funambol-plugin</artifactId>
+                <version>1.1.0-SNAPSHOT</version>
+                <extensions>true</extensions>
+            </plugin>
+
+            <plugin>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <source>1.6</source>
+                    <target>1.6</target>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <addExtensions />
+                            <classpathPrefix />
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            
+        </plugins>
+    </build>
+
+<!-- This is the central Funambol repository where all Funambol-related 
+		artifacts are stored -->
+	<repositories>
+		<repository>
+			<id>artifacts</id>
+			<url>http://m2.funambol.com/repositories/artifacts</url>
+		</repository>
+
+		<repository>
+			<id>Repo ID</id>
+			<layout>default</layout>
+			<name>Java.net Maven repo</name>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<url>http://download.java.net/maven/2/javax/</url>
+		</repository>
+        <repository>
+            <id>nexus</id>
+            <name>Releases</name>
+            <url>http://192.168.6.63:8087/nexus/content/repositories/releases</url>
+        </repository>
+
+	</repositories>
+	<pluginRepositories>
+		<pluginRepository>
+			<id>snapshots</id>
+			<url>http://m2.funambol.com/repositories/snapshots/</url>
+		</pluginRepository>
+
+	</pluginRepositories>
+
+
+
+</project>

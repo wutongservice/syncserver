@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Maven: org.jibx:jibx-run:1.1.2fun">
+    <CLASSES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jibx/jibx-run/1.1.2fun/jibx-run-1.1.2fun.jar!/" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jibx/jibx-run/1.1.2fun/jibx-run-1.1.2fun-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$MAVEN_REPOSITORY$/org/jibx/jibx-run/1.1.2fun/jibx-run-1.1.2fun-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

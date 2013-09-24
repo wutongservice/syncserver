@@ -1,0 +1,4 @@
+iptables -I INPUT -p tcp --dport 8895 -j DROP
+iptables -I INPUT -s 127.0.0.1 -p tcp --dport 8895 -j ACCEPT
+iptables -I INPUT -s 10.200.60.49 -p tcp --dport 8895 -j ACCEPT
+iptables -I INPUT -s 10.200.56.148 -p tcp --dport 8895 -j ACCEPT

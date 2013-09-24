@@ -1,0 +1,8 @@
+/**
+ * account sync service interface
+ */
+@namespace("com.borqs.sync.avro")
+protocol IAccountSyncService {
+  void syncFromAccount(string userId, long since, long to);
+  void syncToAccount(string userId, long since, long to);
+}

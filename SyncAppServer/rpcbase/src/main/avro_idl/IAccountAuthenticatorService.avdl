@@ -1,0 +1,16 @@
+/**
+ * account authenticator service interface
+ */
+@namespace("com.borqs.sync.avro")
+protocol IAccountAuthenticatorService {
+    record XAuthenticatorResponse {
+        int status_code;
+        string content;
+    }
+    XAuthenticatorResponse login(string user,string pass);
+    XAuthenticatorResponse logout(string user,string pass);
+    XAuthenticatorResponse getName();
+    XAuthenticatorResponse isSyncing(string username,string deviceId);
+    XAuthenticatorResponse enterSyncBeginStatus(string username,string deviceId);
+    XAuthenticatorResponse enterSyncEndStatus(string username);
+}

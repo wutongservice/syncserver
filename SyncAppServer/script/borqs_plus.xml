@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<borqs_plus>
+
+	<wutong_plus>
+		<package>com.borqs.qiupu</package>
+		<mimetype>vnd.android.cursor.item/vnd.borqsplus.profile</mimetype>
+		<activity_mimetype>vnd.android.cursor.item/vnd.borqsplus.profile_action
+		</activity_mimetype>
+		<entries>
+			<zh>
+				<entry>
+					<label>查看梧桐个人资料</label>
+					<action>view</action>
+				</entry>
+				<entry>
+					<label>添加到圈子</label>
+					<action>addtocircle</action>
+				</entry>
+				<entry>
+					<label>发起会话</label>
+					<action>conversation</action>
+				</entry>
+			</zh>
+
+			<en>
+				<entry>
+					<label>View B+ Personal Information</label>
+					<action>view</action>
+				</entry>
+				<entry>
+					<label>Add to circle</label>
+					<action>addtocircle</action>
+				</entry>
+				<entry>
+					<label>Initiate a session</label>
+					<action>conversation</action>
+				</entry>
+			</en>
+		</entries>
+	</wutong_plus>
+
+	<openface_plus>
+		<package>com.borqs.videochat</package>
+		<mimetype>vnd.android.cursor.item/vnd.borqsplus.openface</mimetype>
+		<activity_mimetype>vnd.android.cursor.item/vnd.borqsplus.openface_action
+		</activity_mimetype>
+		<entries>
+			<zh>
+				<entry>
+					<label>视频通话</label>
+					<action>video_call</action>
+				</entry>
+				<entry>
+					<label>语音通话</label>
+					<action>voice_call</action>
+				</entry>
+			</zh>
+
+			<en>
+				<entry>
+					<label>Video Call</label>
+					<action>video_call</action>
+				</entry>
+				<entry>
+					<label>Voice Call</label>
+					<action>voice_call</action>
+				</entry>
+			</en>
+		</entries>
+	</openface_plus>
+
+</borqs_plus> 

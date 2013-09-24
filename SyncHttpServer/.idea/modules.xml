@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/json-connector/json-connector.iml" filepath="$PROJECT_DIR$/json-connector/json-connector.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json-core/json-core.iml" filepath="$PROJECT_DIR$/json-core/json-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/json-officer/json-officer.iml" filepath="$PROJECT_DIR$/json-officer/json-officer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/pim-json.iml" filepath="$PROJECT_DIR$/pim-json.iml" />
+    </modules>
+  </component>
+</project>
+

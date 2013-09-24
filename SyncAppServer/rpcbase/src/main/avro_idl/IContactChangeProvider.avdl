@@ -1,0 +1,15 @@
+
+/**
+ * contactmanager interface
+ */
+@namespace("com.borqs.sync.avro.contactchange")
+protocol IContactChangeProvider {
+
+    string getChangeCount(string uid,long lastsync,string deviceId);
+
+
+    string getChangedDetail(string uid,long lastsync,string deviceId);
+
+    string getContact(string uid,string syncsource,string luid,string deviceId);
+
+}
